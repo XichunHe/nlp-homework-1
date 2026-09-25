@@ -1,0 +1,172 @@
+{
+  "method": "w2v_ag",
+  "seed": 42,
+  "selected_C": 10.0,
+  "validation_search": [
+    {
+      "C": 0.1,
+      "accuracy": 0.9487847222222222,
+      "macro_f1": 0.8883217862586008,
+      "iterations": [
+        33
+      ]
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.9652777777777778,
+      "macro_f1": 0.9236793499571797,
+      "iterations": [
+        30
+      ]
+    },
+    {
+      "C": 10.0,
+      "accuracy": 0.9739583333333334,
+      "macro_f1": 0.9416445533301437,
+      "iterations": [
+        36
+      ]
+    }
+  ],
+  "validation": {
+    "accuracy": 0.9739583333333334,
+    "macro_f1": 0.9416445533301437,
+    "classification_report": {
+      "business": {
+        "precision": 0.9219858156028369,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9154929577464789,
+        "support": 143.0
+      },
+      "politics": {
+        "precision": 0.8947368421052632,
+        "recall": 0.9379310344827586,
+        "f1-score": 0.9158249158249159,
+        "support": 145.0
+      },
+      "sports": {
+        "precision": 0.9965075669383003,
+        "recall": 0.9907407407407407,
+        "f1-score": 0.9936157864190366,
+        "support": 864.0
+      },
+      "accuracy": 0.9739583333333334,
+      "macro avg": {
+        "precision": 0.9377434082154666,
+        "recall": 0.9459208947714695,
+        "f1-score": 0.9416445533301437,
+        "support": 1152.0
+      },
+      "weighted avg": {
+        "precision": 0.9744473537944098,
+        "recall": 0.9739583333333334,
+        "f1-score": 0.974126862168756,
+        "support": 1152.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        130,
+        12,
+        1
+      ],
+      [
+        7,
+        136,
+        2
+      ],
+      [
+        4,
+        4,
+        856
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9782986111111112,
+    "macro_f1": 0.94598701242546,
+    "classification_report": {
+      "business": {
+        "precision": 0.9166666666666666,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.9198606271777003,
+        "support": 143.0
+      },
+      "politics": {
+        "precision": 0.9236111111111112,
+        "recall": 0.9172413793103448,
+        "f1-score": 0.9204152249134948,
+        "support": 145.0
+      },
+      "sports": {
+        "precision": 0.9976851851851852,
+        "recall": 0.9976851851851852,
+        "f1-score": 0.9976851851851852,
+        "support": 864.0
+      },
+      "accuracy": 0.9782986111111112,
+      "macro avg": {
+        "precision": 0.9459876543209876,
+        "recall": 0.946001162524151,
+        "f1-score": 0.94598701242546,
+        "support": 1152.0
+      },
+      "weighted avg": {
+        "precision": 0.9783046392746912,
+        "recall": 0.9782986111111112,
+        "f1-score": 0.9782988518219339,
+        "support": 1152.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        132,
+        10,
+        1
+      ],
+      [
+        11,
+        133,
+        1
+      ],
+      [
+        1,
+        1,
+        862
+      ]
+    ]
+  },
+  "classifier_seconds": 0.46479130000807345,
+  "dimensions": 100,
+  "aggregation": "mean over in-vocabulary token occurrences",
+  "corpus": "AG all",
+  "corpus_documents": 90000,
+  "vocabulary_size": 37589,
+  "window": 5,
+  "min_count": 2,
+  "sg": 1,
+  "negative": 5,
+  "epochs": 10,
+  "workers": 1,
+  "coverage_by_split": {
+    "train": {
+      "covered_tokens": 5863201,
+      "total_tokens": 6037382,
+      "coverage": 0.971149581060135,
+      "zero_vector_documents": 0
+    },
+    "validation": {
+      "covered_tokens": 728819,
+      "total_tokens": 751179,
+      "coverage": 0.9702334596680685,
+      "zero_vector_documents": 0
+    },
+    "test": {
+      "covered_tokens": 748370,
+      "total_tokens": 770680,
+      "coverage": 0.971051538900711,
+      "zero_vector_documents": 0
+    }
+  },
+  "feature_seconds": 184.657587099995
+}

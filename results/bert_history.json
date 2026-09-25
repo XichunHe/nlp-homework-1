@@ -1,0 +1,176 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.23993670617225688,
+    "validation": {
+      "accuracy": 0.9678819444444444,
+      "macro_f1": 0.9302888631990145,
+      "classification_report": {
+        "business": {
+          "precision": 0.9606299212598425,
+          "recall": 0.8531468531468531,
+          "f1-score": 0.9037037037037037,
+          "support": 143.0
+        },
+        "politics": {
+          "precision": 0.8255813953488372,
+          "recall": 0.9793103448275862,
+          "f1-score": 0.8958990536277602,
+          "support": 145.0
+        },
+        "sports": {
+          "precision": 0.9976553341148886,
+          "recall": 0.9849537037037037,
+          "f1-score": 0.9912638322655795,
+          "support": 864.0
+        },
+        "accuracy": 0.9678819444444444,
+        "macro avg": {
+          "precision": 0.9279555502411894,
+          "recall": 0.9391369672260477,
+          "f1-score": 0.9302888631990145,
+          "support": 1152.0
+        },
+        "weighted avg": {
+          "precision": 0.9714006855390649,
+          "recall": 0.9678819444444444,
+          "f1-score": 0.9683914439957602,
+          "support": 1152.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          122,
+          20,
+          1
+        ],
+        [
+          2,
+          142,
+          1
+        ],
+        [
+          3,
+          10,
+          851
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.05200147923244829,
+    "validation": {
+      "accuracy": 0.9765625,
+      "macro_f1": 0.9491170294005347,
+      "classification_report": {
+        "business": {
+          "precision": 0.9366197183098591,
+          "recall": 0.9300699300699301,
+          "f1-score": 0.9333333333333333,
+          "support": 143.0
+        },
+        "politics": {
+          "precision": 0.9178082191780822,
+          "recall": 0.9241379310344827,
+          "f1-score": 0.9209621993127147,
+          "support": 145.0
+        },
+        "sports": {
+          "precision": 0.9930555555555556,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.9930555555555556,
+          "support": 864.0
+        },
+        "accuracy": 0.9765625,
+        "macro avg": {
+          "precision": 0.9491611643478324,
+          "recall": 0.9490878055533228,
+          "f1-score": 0.9491170294005347,
+          "support": 1152.0
+        },
+        "weighted avg": {
+          "precision": 0.9765788294263297,
+          "recall": 0.9765625,
+          "f1-score": 0.9765678694158075,
+          "support": 1152.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          133,
+          7,
+          3
+        ],
+        [
+          8,
+          134,
+          3
+        ],
+        [
+          1,
+          5,
+          858
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.017830202594869157,
+    "validation": {
+      "accuracy": 0.9765625,
+      "macro_f1": 0.9503086558095521,
+      "classification_report": {
+        "business": {
+          "precision": 0.9310344827586207,
+          "recall": 0.9440559440559441,
+          "f1-score": 0.9375,
+          "support": 143.0
+        },
+        "politics": {
+          "precision": 0.9178082191780822,
+          "recall": 0.9241379310344827,
+          "f1-score": 0.9209621993127147,
+          "support": 145.0
+        },
+        "sports": {
+          "precision": 0.9941927990708479,
+          "recall": 0.9907407407407407,
+          "f1-score": 0.9924637681159421,
+          "support": 864.0
+        },
+        "accuracy": 0.9765625,
+        "macro avg": {
+          "precision": 0.9476785003358502,
+          "recall": 0.9529782052770558,
+          "f1-score": 0.9503086558095521,
+          "support": 1152.0
+        },
+        "weighted avg": {
+          "precision": 0.9767384559136434,
+          "recall": 0.9765625,
+          "f1-score": 0.9766412452712826,
+          "support": 1152.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          135,
+          6,
+          2
+        ],
+        [
+          8,
+          134,
+          3
+        ],
+        [
+          2,
+          6,
+          856
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "gensim": "4.4.0",
+    "torch": "2.14.0",
+    "transformers": "5.17.0"
+  },
+  "methods": [
+    "glove",
+    "w2v_ag",
+    "w2v_nyt"
+  ],
+  "bert_status": "API smoke check passed on synthetic tiny model; full pretrained training pending GPU access"
+}

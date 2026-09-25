@@ -1,0 +1,8 @@
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.7,<2
+gensim==4.4.0
+torch>=2.4,<3
+transformers>=4.46,<6
+threadpoolctl>=3.5
+reportlab>=4

@@ -1,0 +1,94 @@
+{
+  "checks_passed": true,
+  "majority_baseline": {
+    "n": 1152,
+    "accuracy": 0.75,
+    "macro_f1": 0.2857142857142857
+  },
+  "methods": {
+    "bert": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9782986111111112,
+        "macro_f1": 0.9510509105308937
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.978108581436077,
+        "macro_f1": 0.9502198230220005
+      }
+    },
+    "binary": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9887152777777778,
+        "macro_f1": 0.9726376729907941
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.98861646234676,
+        "macro_f1": 0.9721768088727475
+      }
+    },
+    "frequency": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9895833333333334,
+        "macro_f1": 0.975084312703626
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.989492119089317,
+        "macro_f1": 0.9746535438356414
+      }
+    },
+    "glove": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9852430555555556,
+        "macro_f1": 0.9646170284241168
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.9851138353765324,
+        "macro_f1": 0.9640265172180066
+      }
+    },
+    "tfidf": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9921875,
+        "macro_f1": 0.9811034933926809
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.9921190893169878,
+        "macro_f1": 0.9807957882979705
+      }
+    },
+    "w2v_ag": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9782986111111112,
+        "macro_f1": 0.94598701242546
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.978108581436077,
+        "macro_f1": 0.9450398076994687
+      }
+    },
+    "w2v_nyt": {
+      "recomputed": {
+        "n": 1152,
+        "accuracy": 0.9887152777777778,
+        "macro_f1": 0.9718441224994169
+      },
+      "without_train_duplicates": {
+        "n": 1142,
+        "accuracy": 0.98861646234676,
+        "macro_f1": 0.9713710550337408
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "max_length": 64,
+  "test_n": 1152,
+  "test_truncated_n": 1152,
+  "test_truncated_fraction": 1.0,
+  "test_median_tokens": 888.5,
+  "test_p90_tokens": 1242.8000000000002,
+  "test_min_tokens": 75,
+  "test_max_tokens": 6775
+}
